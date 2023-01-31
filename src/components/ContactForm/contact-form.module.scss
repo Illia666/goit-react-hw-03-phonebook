@@ -1,0 +1,48 @@
+@import 'src/styles/shared.scss';
+
+.form {
+  padding: 5px;
+  border: 1px solid black;
+  font-size: 13px;
+  width: 400px;
+  margin-bottom: 1em;
+}
+
+/* .label {
+  display: block;
+  padding-bottom: 3px;
+  font-size: 18px;
+  font-weight: 500;
+  bottom: 2em;
+  margin-bottom: 1em;
+} */
+
+/* .input {
+  margin-top: 4px;
+  display: block;
+  padding: 0;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid gray;
+  padding: 3px;
+}
+.input:focus {
+  border-color: lightblue;
+  box-shadow: 0 0 2px 2px rgba(34, 133, 204, 0.681);
+}
+.button {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  background-color: transparent;
+  background-color: rgba(34, 133, 204);
+  font-size: 13px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(1, 21, 52);
+  color: white;
+}
+.button:active {
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.24);
+} */

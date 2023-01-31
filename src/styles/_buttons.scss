@@ -1,0 +1,44 @@
+.label {
+    display: block;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    bottom: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .input {
+    margin-top: 4px;
+    display: block;
+    padding: 0;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid var(--input-border);
+    padding: 3px;
+  
+    &:focus {
+      border-color: lightblue;
+      box-shadow: 0 0 2px 2px var(--border-shadow);
+    }
+  }
+  
+  .button {
+    padding: 2px 5px;
+  
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--button-hover);
+    font-size: 13px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: rgb(1, 21, 52);
+      color: white;
+    }
+  
+    &:active {
+      box-shadow: var(--button-active-shadow);
+      background-color: var(--border-shadow);
+    }
+  }
