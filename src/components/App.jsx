@@ -9,7 +9,6 @@ import '../styles/shared.scss';
 export class App extends Component {
   state = {
     contacts: [],
-    name: '',
     filter: '',
   };
 
@@ -23,7 +22,7 @@ export class App extends Component {
   componentDidUpdate(prevProps, prevState) {
     const { contacts: prevContacts } = prevState;
     const { contacts } = this.state;
-    if (prevContacts.length !== contacts.length) {
+    if (prevContacts !== contacts) {
       localStorage.setItem('contacts', JSON.stringify(contacts));
     }
   }
